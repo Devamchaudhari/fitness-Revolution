@@ -1,0 +1,81 @@
+@import 'assets/styles/variable.scss';
+//Header css
+.website__name {
+	letter-spacing: 5px;
+}
+
+//User profile
+.profile__box {
+	backdrop-filter: blur(65px);
+	background-color: #1d1d1f;
+	border: 2px solid $secondary;
+	box-shadow: 5px 5px 30px hsla(0, 0%, 100%, 0.05);
+	width: calc(100% - 103px);
+
+	.body_details__box {
+		background: linear-gradient(180deg, #2e2e2e 0%, rgba(80, 80, 80, 0) 98.96%);
+		border: 3px solid #edff64;
+		width: 145px;
+		height: 150px;
+	}
+}
+
+.user__widget {
+	backdrop-filter: blur(65px);
+	background-color: #1d1d1f;
+	border: 2px solid $secondary;
+	box-shadow: 5px 5px 30px hsla(0, 0%, 100%, 0.05);
+
+	.bar-chart--container {
+		height: 272px;
+		width: 544px;
+	}
+}
+
+/*------------------Swiper css----------------------------------------------*/
+
+.swiper {
+	width: 740px;
+	height: 320px;
+	display: flex !important;
+	justify-content: start;
+	margin: 0px 70px;
+}
+
+.swiper-slide {
+	display: flex !important;
+	margin-top: 20px;
+	border-radius: 18px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+}
+.swiper-slide {
+	backdrop-filter: blur(65px);
+	background-color: #1d1d1f;
+	border: 2px solid #edff64;
+}
+
+.progress-container {
+	width: 100%; /* Set the container width as needed */
+}
+
+.progress-bar--container {
+	width: 100%;
+}
+.redirect--wrapper {
+	right: 30px;
+	top: 20px;
+	.redirect--icon {
+		padding: 5px;
+		border-radius: 50%;
+		background: linear-gradient(
+			139deg,
+			#edff64 7.33%,
+			#edff64 7.34%,
+			rgba(196, 222, 0, 0.235194) 90.53%,
+			rgba(137, 155, 0, 0) 107.82%
+		);
+		box-shadow: 0px 1px 13px 1px #ffffffab;
+	}
+}
